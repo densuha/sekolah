@@ -5,9 +5,11 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>SMK NEGERI 1 BUAHDUA</title>
+    <title>M School - Selamat Datang di M School</title>
     <link rel="shorcut icon" href="<?php echo base_url().'theme/images/icon.png'?>">
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="<?php echo base_url().'theme/css/bootstrap.min.css'?>">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet">
@@ -36,10 +38,10 @@
 <img src="https://web.whatsapp.com/img/favicon/1x/favicon.png"> Whatsapp Kami</button></a>
 </div>
     <!--============================= HEADER =============================-->
-    <?php
-    include "./application/views/adds/header.php";
-    include "./application/views/adds/slider.php";
-    ?>
+   <?php 
+   include "./application/views/adds/header.php";
+   include "./application/views/adds/slider.php";
+   ?>
 <!--//END HEADER -->
 <!--============================= ABOUT =============================-->
 <section class="clearfix about about-style2">
@@ -47,7 +49,7 @@
         <div class="row">
             <div class="col-md-8">
                <h2>Welcome</h2>
-               <p>Kami Menyambut baik terbitnya Website SMK NEGERI 1 BUAHDUA, dengan harapan dipublikasinya website ini sekolah berharap : Peningkatan layanan pendidikan kepada siswa, orangtua, dan masyarakat pada umumnya semakin meningkat. </p>
+               <p>Kami Menyambut baik terbitnya Website MTs Tarbiyatul Falah Bantar Gebang yang baru , dengan harapan dipublikasinya website ini sekolah berharap : Peningkatan layanan pendidikan kepada siswa, orangtua, dan masyarakat pada umumnya semakin meningkat. </p>
 
             </div>
             <div class="col-md-4">
@@ -88,58 +90,16 @@
     </div>
 </section>
 <!--//END OUR COURSES -->
-<!--============================= EVENTS =============================-->
-<section class="event">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="event-img2">
-                <?php foreach ($pengumuman->result() as $row) :?>
-                <div class="row">
-                    <div class="col-sm-3"> <img src="<?php echo base_url().'theme/images/announcement-icon.png'?>" class="img-fluid" alt="event-img"></div><!-- // end .col-sm-3 -->
-                    <div class="col-sm-9"> <h3><a href="<?php echo site_url('pengumuman');?>"><?php echo $row->pengumuman_judul;?></a></h3>
-                      <span><?php echo $row->tanggal;?></span>
-                      <p><?php echo limit_words($row->pengumuman_deskripsi,10).'...';?></p>
 
-                    </div><!-- // end .col-sm-7 -->
-                </div><!-- // end .row -->
-                <?php endforeach;?>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="row">
-                    <div class="col-md-12">
-                      <?php foreach ($galeri->result() as $row):?>
-                        <div class="event_date">
-                            <div class="event-date-wrap">
-                                <p><?php echo date("d", strtotime($row->galeri_tanggal));?></p>
-                                <span><?php echo date("M. y", strtotime($row->galeri_tanggal));?></span>
-                            </div>
-                        </div>
-                        <div class="date-description">
-                            <h3><a href="<?php echo site_url('galeri');?>"><?php echo $row->galeri_nama;?></a></h3>
-                            <p><?php echo limit_words($row->galeri_deskripsi,10).'...';?></p>
-                            <hr class="event_line">
-                        </div>
-                        <?php endforeach;?>
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</section>
-<!--//END EVENTS -->
 <!--============================= DETAILED CHART =============================-->
-<?php
-    include "./application/views/adds/chart.php";
-    ?>
+<?php 
+include "./application/views/adds/chart.php";
+?>
 <!--//END DETAILED CHART -->
 <!--============================= FOOTER =============================-->
-<?php
-    include "./application/views/adds/footer.php";
-    ?>
+<?php 
+include "./application/views/adds/footer.php";
+?>
         <!--//END FOOTER -->
         <!-- jQuery, Bootstrap JS. -->
         <script src="<?php echo base_url().'theme/js/jquery.min.js'?>"></script>
@@ -156,6 +116,7 @@
         <script src="<?php echo base_url().'theme/js/subscribe.js'?>"></script>
         <!-- Script JS -->
         <script src="<?php echo base_url().'theme/js/script.js'?>"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 
     </html>

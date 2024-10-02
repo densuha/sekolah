@@ -10,6 +10,15 @@
                     </p>
                 </div>
             </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 chart_bottom chart_top">
+                <div class="chart-img">
+                    <img src="<?php echo base_url().'theme/images/chart-icon_2.png'?>" class="img-fluid" alt="chart_icon">
+                </div>
+                <div class="chart-text">
+                    <p><span class="counter"><?php echo $tot_galeri;?></span> galeri
+                    </p>
+                </div>
+            </div>
             <div class="col-xs-12 col-sm-6 col-md-3 chart_top">
                 <div class="chart-img">
                     <img src="<?php echo base_url().'theme/images/chart-icon_3.png'?>" class="img-fluid" alt="chart_icon">
@@ -24,7 +33,7 @@
                     <img src="<?php echo base_url().'theme/images/chart-icon_4.png'?>" class="img-fluid" alt="chart_icon">
                 </div>
                 <div class="chart-text">
-                    <p><span class="counter"><?php echo $tot_galeri;?></span> Gallery</p>
+                    <p><span class="counter"><?php echo $tot_agenda;?></span> Agenda</p>
                 </div>
             </div>
         </div>

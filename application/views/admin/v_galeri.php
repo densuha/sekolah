@@ -62,7 +62,7 @@
         <li class="active">Photos</li>
       </ol>
     </section>
-
+ 
     <!-- Main content -->
     <section class="content">
       <div class="row">

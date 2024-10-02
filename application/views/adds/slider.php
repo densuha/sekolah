@@ -19,6 +19,7 @@
                         </div>
                     </div>
                 </div>
+                
                 <div class="carousel-item">
                     <img class="d-block" src="<?php echo base_url().'theme/images/slider-2.jpg'?>" alt="Second slide">
                     <div class="carousel-caption d-md-block">
