@@ -19,6 +19,10 @@
 
 </head>
 <body class="hold-transition login-page">
+      <div class="preloader flex-column justify-content-center alignitems-center">
+         <img class="animation__shake" src="<?php echo base_url().'assets/dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60'?>">
+      </div>
+
 <div class="login-box">
   <div>
    <p><?php echo $this->session->flashdata('msg');?></p>
@@ -62,11 +66,13 @@
 <!-- /.login-box -->
 
 <!-- jQuery 2.2.3 -->
-<script src="<?php echo base_url().'assets/plugins/jQuery/jquery-2.2.3.min.js'?>"></script>
-<!-- Bootstrap 3.3.6 -->
-<script src="<?php echo base_url().'assets/bootstrap/js/bootstrap.min.js'?>"></script>
+<script src="<?php echo base_url().'assets/plugins/jquery/jquery.min.js'?>"></script>
+  <!-- Bootstrap 4 -->
+<script src="<?php echo base_url().'assets/plugins/bootstrap/js/bootstrap.bundle.min.js'?>"></script>
 <!-- iCheck -->
 <script src="<?php echo base_url().'assets/plugins/iCheck/icheck.min.js'?>"></script>
+  <!-- AdminLTE App -->
+  <script src="<?php echo base_url().'assets/dist/js/adminlte.min.js'?>"></script>
 <script>
   $(function () {
     $('input').iCheck({

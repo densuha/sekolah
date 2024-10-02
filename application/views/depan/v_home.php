@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>M School - Selamat Datang di M School</title>
+    <title>SMKN 1 BUAHDUA</title>
     <link rel="shorcut icon" href="<?php echo base_url().'theme/images/icon.png'?>">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
@@ -48,8 +48,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8">
-               <h2>Welcome</h2>
-               <p>Kami Menyambut baik terbitnya Website MTs Tarbiyatul Falah Bantar Gebang yang baru , dengan harapan dipublikasinya website ini sekolah berharap : Peningkatan layanan pendidikan kepada siswa, orangtua, dan masyarakat pada umumnya semakin meningkat. </p>
+               <h2>Selamat Datang</h2>
+               <p>Kata Sambutan </p>
 
             </div>
             <div class="col-md-4">

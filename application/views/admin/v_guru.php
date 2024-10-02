@@ -36,19 +36,11 @@
    <?php
     $this->load->view('admin/v_header');
   ?>
-  <!-- Left side column. contains the logo and sidebar -->
-  <aside class="main-sidebar">
-    <!-- sidebar: style can be found in sidebar.less -->
-    <section class="sidebar">
-
-      <!-- /.search form -->
-      <!-- sidebar menu: : style can be found in sidebar.less -->
+    <aside class="main-sidebar">
       <?php
-    include "./application/views/admin/sidebar.php";
+    include "./application/views/admin/adds/sidebar.php";
     ?>
-    <!-- /.sidebar -->
   </aside>
-
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->

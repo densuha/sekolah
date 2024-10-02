@@ -3,12 +3,24 @@
     $query=$this->db->query("SELECT * FROM tbl_inbox WHERE inbox_status='1'");
     $jum_pesan=$query->num_rows();
 ?>
+
+<style>
+        .main-header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+        .content {
+            margin-top: 50px; /* Sesuaikan dengan tinggi header Anda */
+        }
+    </style>
 <header class="main-header">
 
     <!-- Logo -->
     <a href="index2.html" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini">MS</span>
+      <span class="logo-mini">SK</span>
       <!-- logo for regular state and mobile devices -->
       <span class="logo-lg">SKANEBU</span>
     </a>

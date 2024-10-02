@@ -1,3 +1,15 @@
+<style>
+        .sidebar {
+            position: fixed;
+            top: 1;
+            width: 14.7%;
+            z-index: 700;
+        }
+        .content {
+            margin-top: 50px; /* Sesuaikan dengan tinggi header Anda */
+        }
+    </style>
+<section class="sidebar">
 <ul class="sidebar-menu">
         <li class="header">Menu Utama</li>
         <li class="active">

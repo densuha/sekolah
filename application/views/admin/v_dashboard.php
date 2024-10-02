@@ -24,9 +24,11 @@
   <link rel="stylesheet" href="<?php echo base_url().'assets/plugins/jvectormap/jquery-jvectormap-1.2.2.css'?>">
   <!-- Theme style -->
   <link rel="stylesheet" href="<?php echo base_url().'assets/dist/css/AdminLTE.min.css'?>">
+
   <!-- AdminLTE Skins. Choose a skin from the css/skins
        folder instead of downloading all of them to reduce the load. -->
   <link rel="stylesheet" href="<?php echo base_url().'assets/dist/css/skins/_all-skins.min.css'?>">
+
   <?php
         /* Mengambil query report*/
         foreach($visitor as $result){
@@ -40,7 +42,10 @@
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
-
+<body class="hold-transition login-page">
+      <div class="preloader flex-column justify-content-center alignitems-center">
+         <img class="animation__shake" src="<?php echo base_url().'assets/dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60'?>">
+      </div>
   <!--Header-->
   <?php
     $this->load->view('admin/v_header');
@@ -48,15 +53,9 @@
 
   <!-- Left side column. contains the logo and sidebar -->
   <aside class="main-sidebar">
-    <!-- sidebar: style can be found in sidebar.less -->
-    <section class="sidebar">
-
-      <!-- /.search form -->
-      <!-- sidebar menu: : style can be found in sidebar.less -->
       <?php
-    include "./application/views/admin/sidebar.php";
+    include "./application/views/admin/adds/sidebar.php";
     ?>
-    <!-- /.sidebar -->
   </aside>
 
   <!-- Content Wrapper. Contains page content -->
@@ -321,9 +320,9 @@
 <!-- ./wrapper -->
 
 <!-- jQuery 2.2.3 -->
-<script src="<?php echo base_url().'assets/plugins/jQuery/jquery-2.2.3.min.js'?>"></script>
-<!-- Bootstrap 3.3.6 -->
-<script src="<?php echo base_url().'assets/bootstrap/js/bootstrap.min.js'?>"></script>
+<script src="<?php echo base_url().'assets/plugins/jquery/jquery.min.js'?>"></script>
+  <!-- Bootstrap 4 -->
+<script src="<?php echo base_url().'assets/plugins/bootstrap/js/bootstrap.bundle.min.js'?>"></script>
 <!-- FastClick -->
 <script src="<?php echo base_url().'assets/plugins/fastclick/fastclick.js'?>"></script>
 <!-- AdminLTE App -->
@@ -337,10 +336,8 @@
 <script src="<?php echo base_url().'assets/plugins/slimScroll/jquery.slimscroll.min.js'?>"></script>
 <!-- ChartJS 1.0.1 -->
 <script src="<?php echo base_url().'assets/plugins/chartjs/Chart.min.js'?>"></script>
-<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="<?php echo base_url().'assets/dist/js/pages/dashboard2.js'?>"></script>
-<!-- AdminLTE for demo purposes -->
-<script src="<?php echo base_url().'assets/dist/js/demo.js'?>"></script>
+ <!-- AdminLTE App -->
+ <script src="<?php echo base_url().'assets/dist/js/adminlte.min.js'?>"></script>
 
 <script>
 
