@@ -7,7 +7,7 @@
                             <span class="icon-phone"></span>000000000000
                         </div>
                         <div class="header-top_list">
-                            <span class="icon-envelope-open"></span>smkn1buahdua@yahoo.co.id
+                            <span class="icon-envelope-open"></span>smkn1buahdua@gmail.com
                         </div>
                         <div class="header-top_list">
                             <span class="icon-location-pin"></span>Jln.Raya, Bojongloa, Kec.Buahdua
@@ -45,10 +45,7 @@
                                 <a class="nav-link" href="<?php echo site_url('guru');?>">Guru</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="<?php echo site_url('pengumuman');?>">Pengumuman</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="<?php echo site_url('agenda');?>">Agenda</a>
+                                <a class="nav-link" href="<?php echo site_url('agenda');?>">Pengumuman</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="<?php echo site_url('blog');?>">Postingan

@@ -9,7 +9,7 @@
             </ol>
             <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active">
-                    <img class="d-block" src="<?php echo base_url().'theme/images/slider.jpg'?>" alt="First slide">
+                    <img class="d-block" src="<?php echo base_url().'theme/images/slider.jpg'?>" alt="First slide"style="  height: 500px;">
                     <div class="carousel-caption d-md-block">
                         <div class="slider_title">
                             <h1>Bepikir Kreaftif &amp; Inovatif</h1>
@@ -22,7 +22,7 @@
                 </div>
                 
                 <div class="carousel-item">
-                    <img class="d-block" src="<?php echo base_url().'theme/images/slider-2.jpg'?>" alt="Second slide">
+                    <img class="d-block" src="<?php echo base_url().'theme/images/slider-2.jpg'?>" alt="Second slide"style="  height: 500px;">
                     <div class="carousel-caption d-md-block">
                         <div class="slider_title">
                             <h1>Guru Bekualitas Tinggi</h1>
@@ -34,7 +34,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block" src="<?php echo base_url().'theme/images/slider-3.jpg'?>" alt="Third slide">
+                    <img class="d-block" src="<?php echo base_url().'theme/images/slider-3.jpg'?>" alt="Third slide"style="  height: 500px;">
                     <div class="carousel-caption d-md-block">
                         <div class="slider_title">
                             <h1>Proses Belajar Interatif</h1>
